@@ -1,7 +1,7 @@
-const path = require("path");
+import * as path from "path";
+import * as webpack from "webpack";
 const rootPath = path.resolve(__dirname, "..");
-
-module.exports = {
+const config: webpack.Configuration = {
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".json"],
   },
@@ -27,3 +27,4 @@ module.exports = {
     filename: "[name].js",
   },
 };
+export default config;

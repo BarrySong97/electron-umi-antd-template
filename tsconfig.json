@@ -10,5 +10,5 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src", "typing.d.ts", "theme.js"]
+  "include": ["src", "typing.d.ts", "theme.js", "config"]
 }

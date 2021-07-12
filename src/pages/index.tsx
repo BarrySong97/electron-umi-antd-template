@@ -6,7 +6,7 @@ export default function IndexPage() {
   return (
     <div>
       <h1 className={styles.title} onClick={onMax}>
-        Page index
+        Page index123
       </h1>
     </div>
   );
