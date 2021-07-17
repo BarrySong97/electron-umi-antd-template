@@ -1,6 +1,10 @@
 import { remote } from "../utils/electron";
 import styles from "./index.less";
 import React from "react";
+/**
+ *
+ * @return {void}
+ */
 export default function IndexPage() {
   const onMax = () => {};
   return (
