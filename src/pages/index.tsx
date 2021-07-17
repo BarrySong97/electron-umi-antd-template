@@ -2,7 +2,7 @@ import { remote } from "../utils/electron";
 import styles from "./index.less";
 import React from "react";
 /**
- *
+ *123
  * @return {void}
  */
 export default function IndexPage() {
